@@ -1,0 +1,62 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.highscores {
+  float: left;
+  font-size: 20px;
+}
+
+.timer {
+  float: right;
+  font-size: 20px;
+}
+
+body{
+  text-align: center;
+  background-color: lightskyblue;
+}
+
+.container {
+  margin-top: 40px;
+  width: 800px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.start-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: lightcoral;
+  border: 1px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  margin: 3px;
+}
+
+.btn {
+  border: 1px;
+  background-color: indigo;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  font-size: 18px;
+  margin: 3px;
+}
+
+.btn:hover {
+  background-color: indianred;
+  border-color: black;
+}
+
+p {
+  font-size: 18px;
+}
