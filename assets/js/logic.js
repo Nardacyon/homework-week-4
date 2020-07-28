@@ -12,13 +12,9 @@ var initialsEl = document.getElementById("initials");
 
 startEl.addEventListener('click', startQuiz);
 
-//hides the elements from the main page
-$("#choice").hide();
-$(".end-screen").hide();
-
 function startQuiz() {
   $(".start-screen").hide();
-  
+
 
 }
 
