@@ -60,3 +60,7 @@ body{
 p {
   font-size: 18px;
 }
+
+.hide {
+  display: none;
+}
