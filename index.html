@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script 
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script defer src="assets/js/questions.js"></script>
+  <script defer src="assets/js/logic.js"></script>
+</head>
+<body>
+  <div class="highscores">
+    <a href="./highscores.html">View Highscores</a>
+  </div>
+  <div class="timer">Time: </div>
 
+  <div class="container">
+    <div class="start-screen">
+      <h1>Welcome to the Coding Quiz!</h1>
+
+      <p>This is a coding quiz that will test your knowledge in HTML, CSS, and JavaScript. Carefully choose your answer! This is a timed quiz, getting a question wrong will result in a penalty and time will be taken off the clock. The test will end once you have answered all questions or if time reaches 0. Do not think to hard, if you are not happy with your score you can always take the quiz again. Good luck!</p>
+      
+      <button id="start" class="start-btn">Start Quiz</button>
+    </div>
+
+    <div class="quiz">
+      <div id="question" class="hide"></div>
+      <button id="choice" class="btn">Choice 1</button>
+    </div>
+
+    <div class="end-screen">
+      <h1>Finished!</h1>
+      <div class="score">Score:</div>
+      <p>You have finished the test. Put your initials in and it will be recorded in the 'View Highscores' tab along with your score.</p>
+
+    </div>
+  </div>
+
+</body>
+</html>
