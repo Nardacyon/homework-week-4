@@ -16,7 +16,7 @@
   <div class="highscores">
     <a href="./highscores.html">View Highscores</a>
   </div>
-  <div class="timer">Time: </div>
+  <div class="timer" id="timer">Time: 00s</div>
 
   <div class="container">
     <div class="start-screen">
@@ -28,15 +28,27 @@
     </div>
 
     <div class="quiz hide">
-      <div id="question"></div>
-      <button id="choice" class="btn">Choice 1</button>
+      <div id="questions"></div>
+      <div class="buttons">
+        <div class="choice0" id="choice"></div>
+        <div class="choice1" id="choice"></div>
+        <div class="choice2" id="choice"></div>
+        <div class="choice3" id="choice"></div>
+      </div>
+      <div id="feedback">...</div>
     </div>
 
     <div class="end-screen hide">
       <h1>Finished!</h1>
       <div class="score">Score:</div>
       <p>You have finished the test. Put your initials in and it will be recorded in the 'View Highscores' tab along with your score.</p>
-
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" id="initials" placeholder="Initials">
+          </div>
+      </form>
+      <button type="submit" id="submit" class="submit-btn btn" >Submit</button>
     </div>
   </div>
 
