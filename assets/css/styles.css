@@ -41,6 +41,11 @@ body{
   margin: 3px;
 }
 
+.start-btn:hover {
+  border-color: black;
+  background-color: plum;
+}
+
 .btn {
   border: 1px;
   background-color: indigo;
@@ -57,10 +62,40 @@ body{
   border-color: black;
 }
 
+#questions {
+  font-size: 36px;
+  padding: 10px;
+}
+
 p {
   font-size: 18px;
 }
 
 .hide {
   display: none;
+}
+
+ul, li {
+  list-style-type: none;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.home a {
+  color: white;
+}
+
+input {
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 0.1rem 1.4rem 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+input::placeholder {
+  text-align: center;
 }
